@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/camera">
+
+    <fragment
+        android:id="@+id/camera"
+        android:name="com.example.fruitox.ui.Camera"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" >
+        <action
+            android:id="@+id/action_camera_to_fruitInfo"
+            app:destination="@id/fruitInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/fruitInfo"
+        android:name="com.example.fruitox.ui.FruitInfo"
+        android:label="fragment_fruit_info"
+        tools:layout="@layout/fragment_fruit_info" />
+</navigation>
