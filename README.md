@@ -2,7 +2,8 @@
 
 uses [image-labeling](https://developers.google.com/ml-kit/vision/image-labeling) to get a fruit name, and gets information about it from the [fruityvice Api](fruityvice.com)
 
-<img width="2104" alt="Frame 1" src="https://user-images.githubusercontent.com/98290339/152655003-e919c68f-e528-4426-9b2d-f665acc726db.png">
+<img width="1415" alt="fruitox" src="https://user-images.githubusercontent.com/98290339/159069497-f3c19b9d-7f73-4ebc-aa7a-627bbcf90d24.png">
+
 
 
 ## What I learned
